@@ -9,13 +9,10 @@ This project aims to address these challenges by leveraging 3D pose estimation t
 2. Memory Gaps: Players returning from breaks often struggle to recall their previous form. Our solution offers them a mirror to their past, helping in quick recalibration.
 3. Beginners' Dilemma: Novices find it hard to grasp the correct tennis form. Our tool serves as a guide, simplifying their journey from amateur to pro.
 
-What I Offer
+Input/output
 - **Input**: Key points from the 3D pose estimation of a forehand shot.
 - **Output**: Corrected key points data, suggesting an optimized form.
-The model harnesses the data obtained from 3D pose estimation to generate this output, effectively acting as a bridge between raw form and its ideal version.
+The model harnesses the data obtained from 3D pose estimation (MeTRAbs[https://github.com/isarandi/metrabs]) to generate this output, effectively acting as a bridge between raw form and its ideal version.
 
-## Features in Pipeline
-1. **3D Pose Estimation Integration**: THe model is designed to seamlessly integrate with 3D pose estimation tools(MeTRAbs[https://github.com/isarandi/metrabs]), ensuring a smooth data flow.
-2. **Form Correction**: The primary output is the corrected form. The exact format of this output is still under consideration, but the goal is to make it as user-friendly and actionable as possible.
 
-code at https://colab.research.google.com/drive/1euTNJH5oGfBUrXfEozBkginxXVwl-LlH?usp=sharing
+code at https://colab.research.google.com/drive/1euTNJH5oGfBUrXfEozBkginxXVwl-LlH?usp=sharing (WIP)
